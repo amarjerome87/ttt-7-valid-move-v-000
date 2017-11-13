@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-board[index] != position_taken?(board,index) &&  board[index] == "0"<=board[index]>="8"
+board[index] != position_taken?(board,index) &&  board[index] == "0"<= && >="8"
 
 end
 
