@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-cboard[index] != position_taken?(board,index) && board[index].clamp(0,8)
+cboard[index] != position_taken?(board,index) 
 
 end
 
